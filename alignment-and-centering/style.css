@@ -30,8 +30,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container  {
   display: flex;
   min-height: 100vh;
-/*  flex-direction: column;
-*/  justify-content: center;
-  align-items: baseline;
+  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
+}
+
+.box {
+  width: 33.3333%;
+}
+
+.box2 {
+  padding-bottom: 200px;
+  align-self: flex-end
+}
+
+.box4 {
+  padding-bottom: 100px;
 }
